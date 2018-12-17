@@ -21,7 +21,7 @@ class DefaultController extends Controller
 {
     /**
      * @Route("/{_locale}", name="homepage", defaults={"_locale"="en"}, requirements={
-     *     "_locale"="en|fr|it|es|de"
+     *     "_locale"="en|fr|it|es|de|pt|pl"
      * })
      *
      * @param mixed $_locale

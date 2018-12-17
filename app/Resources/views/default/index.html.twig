@@ -7,7 +7,7 @@
                 <h1><span>Welcome to</span> Ylly ninja autotranlator</h1>
                 <h2>Languages current : {{ app.request.getLocale() }}</h2>
                 <ul>
-                    {% for lang in ['en', 'fr', 'it', 'es', 'de'] %}
+                    {% for lang in ['en', 'fr', 'it', 'es', 'de', 'pt', 'pl'] %}
                         <li><a href="{{ path('homepage', {'_locale': lang }) }}">{{ lang }}</a></li>
                     {% endfor %}
                 </ul>
